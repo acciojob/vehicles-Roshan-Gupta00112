@@ -14,7 +14,7 @@ public class Boat implements WaterVehicle{
 
     // Getters & Setters
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public void setName(String name) {
@@ -22,7 +22,7 @@ public class Boat implements WaterVehicle{
     }
 
     public int getCapacity() {
-        return this.capacity;
+        return capacity;
     }
 
     public void setCapacity(int capacity) {
