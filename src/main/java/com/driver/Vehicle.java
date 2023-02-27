@@ -12,12 +12,28 @@ public class Vehicle {
         this.currentDirection=0;
     }
 
-    public int getCurrentDirection() {
-        return currentDirection;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getCurrentSpeed() {
         return currentSpeed;
+    }
+    public void setCurrentSpeed(int currentSpeed) {
+        this.currentSpeed = currentSpeed;
+    }
+
+    public int getCurrentDirection() {
+        return currentDirection;
+    }
+
+    public void setCurrentDirection(int currentDirection) {
+        this.currentDirection = currentDirection;
     }
 
     public void steer(int direction){
