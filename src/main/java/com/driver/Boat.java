@@ -6,33 +6,10 @@ public class Boat implements WaterVehicle{
 
     // Constructor
     public Boat(String name, int capacity){
-        this.name=name;
         this.capacity=capacity;
+        this.name=name;
     }
 
-
-
-    // Getters & Setters
-    public String getName() {
-        return name;
-   }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getCapacity() {
-        return capacity;
-    }
-
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
-    }
-
-
-
-
-    // Methods of Interface
     @Override
     public String getVehicleName() {
         return name;
@@ -40,6 +17,24 @@ public class Boat implements WaterVehicle{
 
     @Override
     public int getVehicleCapacity() {
+        return capacity;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+
+    public String getName() {
+        return name;
+   }
+
+
+
+    public int getCapacity() {
         return capacity;
     }
 }
